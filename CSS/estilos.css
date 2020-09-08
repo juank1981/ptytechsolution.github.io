@@ -1,0 +1,160 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.navegacion{
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background:black;
+}
+
+.logo{
+      width: 250px;
+      margin: 10px;      
+}
+
+.mockup1{
+      padding: 10px;
+}
+
+.link{
+            color: white;
+            text-decoration: none;
+            padding: 2px;
+            margin: 1px;
+}
+
+.portada{ 
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0; 
+}
+
+.titulo{
+            font-size: 35px;
+}
+
+.subtitulo{
+            font-size: 25px;
+}
+
+.boton{
+            padding: 10px 50px;
+            display: inline-block;
+            background:linear-gradient(180deg,#f7CE90 0%,#f48D75 100%);
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+}
+
+.services{
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0; 
+}
+
+
+.contenedor-cartas{
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0; 
+             
+}
+
+.tarjeta{
+            width: 30%;
+            padding: 30px 0;
+            overflow: hidden;
+            background:linear-gradient(180deg,#111111 0%,#1A3B35 100%);
+            border-radius: 10px;
+            position: relative;
+            text-align: right;
+            margin-bottom: 60px;
+            box-shadow: 0 0 6px #f48D75;
+}
+
+.card-img{
+            text-align: left;
+            width: 95%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 0 0 10px;
+}
+
+.card-text{
+            text-align: left;
+            width: 95%;
+            margin-left: auto;
+            padding-right: 25px;
+}
+
+.card-boton{
+            display: block;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+            background: linear-gradient(180deg,#f7CE90 0%,#f48D75 100%);
+            border-radius: 6px;
+            color: black;
+            padding: 12px 12px;
+
+}
+
+.card-tittle{
+            color: white;
+}
+
+.card-copy{
+            color: white;
+            font-size: 18px;
+}
+
+.footer{
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: black;
+     
+}
+
+.titulo-footer{
+      color: white;
+}
+
+.contacto{
+      width: 90%;
+      max-width: 1200px;
+      display: flex;
+      margin: auto;
+      height: 100px;
+      align-items: center;
+      justify-content: space-between;   
+}
